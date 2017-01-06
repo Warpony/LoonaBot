@@ -4,7 +4,7 @@ import json
 
 
 api='https://api.vk.com/method/'
-token='043e18a6da82ea6e0a8a7abf5604117c6f76f976108c1c090dc5f7eea19eadc0d7724ca2acba4da910013'
+token='token'
 payload={'access_token':token, 'v':'5.60'}
 selfid=222692489
 
@@ -56,10 +56,6 @@ def messageanalysis(message):
 	'user_id':m['user_id'],
 	'body':m['body']}
 	return mes
-	
-
-	
-	
 
 	
 		
